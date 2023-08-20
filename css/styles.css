@@ -1,5 +1,289 @@
 
 
+/**
+  |============================
+  | classes studio page
+  |============================
+*/
+
+.header {}
+
+.nav-logo {}
+
+.nav-logo-web {}
+
+.header-nav {}
+
+.header-nav-studio {}
+
+.header-nav-studio-link {}
+
+.header-nav-portfolio {}
+
+.header-nav-portfolio-link {}
+
+.header-nav-contacts {}
+
+.header-nav-contacts-link {}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-email {}
+
+.header-address-emailto {}
+
+.header-address-tel {}
+
+.header-address-telto {}
+
+.hero {}
+
+.hero-text {}
+
+.hero-btn {}
+
+.advantages {}
+
+.advantages-text {}
+
+.advantages-list {}
+
+.advantages-list-strategy {}
+
+.advantages-list-strategy-title {}
+
+.advantages-list-strategy-text {}
+
+.advantages-list-punctuality {}
+
+.advantages-list-punctuality-title {}
+
+.advantages-list-punctuality-text {}
+
+.advantages-list-diligence {}
+
+.advantages-list-diligence-title {}
+
+.advantages-list-diligence-text {}
+
+.advantages-list-tech {}
+
+.advantages-list-tech-title {}
+
+.advantages-list-tech-text {}
+
+.doing {}
+
+.doing-title {}
+
+.doing-list {}
+
+.doing-item1 {}
+
+.doing-item1-image {}
+
+.doing-item2 {}
+
+.doing-item2-image {}
+
+.doing-item3 {}
+
+.doing-item3-image {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item1 {}
+
+.team-list-item1-image {}
+
+.team-list-item1-title {}
+
+.team-list-item1-text {}
+
+.team-list-item2 {}
+
+.team-list-item2-image {}
+
+.team-list-item2-title {}
+
+.team-list-item2-text {}
+
+.team-list-item3 {}
+
+.team-list-item3-image {}
+
+.team-list-item3-title {}
+
+.team-list-item3-text {}
+
+.team-list-item4 {}
+
+.team-list-item4-image {}
+
+.team-list-item4-title {}
+
+.team-list-item4-text {}
+
+.footer {}
+
+.footer-text {}
+
+/**
+  |============================
+  | Classes portfolio page
+  |============================
+*/
+
+.header {}
+
+.nav-logo {}
+
+.nav-logo-web {}
+
+.header-nav {}
+
+.header-nav-studio {}
+
+.header-nav-studio-link {}
+
+.header-nav-portfolio {}
+
+.header-nav-portfolio-link {}
+
+.header-nav-contacts {}
+
+.header-nav-contacts-link {}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-emailto {}
+
+.header-address-tel {}
+
+.header-address-telto {}
+
+.portfolio-filters {}
+
+.portfolio-filters-title {}
+
+.portfolio-filters-list {}
+
+.portfolio-filters-list-all {}
+
+.portfolio-filters-list-all-btn {}
+
+.portfolio-filters-list-web-btn {}
+
+.portfolio-filters-list-app {}
+
+.portfolio-filters-list-app-btn {}
+
+.portfolio-filters-list-design {}
+
+.portfolio-filters-list-design-btn {}
+
+.portfolio-filters-list-marketing {}
+
+.portfolio-filters-list-marketing-btn {}
+
+.portfolio-row1 {}
+
+.portfolio-row1-title {}
+
+.portfolio-row1-list {}
+
+.portfolio-row1-item1 {}
+
+.portfolio-row1-item1-image {}
+
+.portfolio-row1-item1-title {}
+
+.portfolio-row1-item1-text {}
+
+.portfolio-row1-item2 {}
+
+.portfolio-row1-item2-image {}
+
+.portfolio-row1-item2-title {}
+
+.portfolio-row1-item2-text {}
+
+.portfolio-row1-item3 {}
+
+.portfolio-row1-item3-image {}
+
+.portfolio-row1-item3-title {}
+
+.portfolio-row1-item3-text {}
+
+.portfolio-row2 {}
+
+.portfolio-row2-title {}
+
+.portfolio-row2-list {}
+
+.portfolio-row2-item1 {}
+
+.portfolio-row2-item1-image {}
+
+.portfolio-row2-item1-title {}
+
+.portfolio-row2-item1-text {}
+
+.portfolio-row2-item2 {}
+
+.portfolio-row2-item2-image {}
+
+.portfolio-row2-item2-title {}
+
+.portfolio-row2-item2-text {}
+
+.portfolio-row2-item3 {}
+
+.portfolio-row2-item3-image {}
+
+.portfolio-row2-item3-title {}
+
+.portfolio-row2-item3-text {}
+
+.portfolio-row3-tilte {}
+
+.portfolio-row3-list {}
+
+.portfolio-row3-item1 {}
+
+.portfolio-row3-item1-image {}
+
+.portfolio-row3-item1-title {}
+
+.portfolio-row3-item1-text {}
+
+.portfolio-row3-item2 {}
+
+.portfolio-row3-item2-image {}
+
+.portfolio-row3-item2-title {}
+
+.portfolio-row3-item2-text {}
+
+.portfolio-row3-item3 {}
+
+.portfolio-row3-item3-image {}
+
+.portfolio-row3-item3-title {}
+
+.portfolio-row3-item3-text {}
+
+.footer {}
+
 
 
 
