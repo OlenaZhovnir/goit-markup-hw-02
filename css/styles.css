@@ -1,28 +1,97 @@
 
+:root {
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    /* Colors */
+    --white: #FFF;
+    --cornflower:#E7E9FC;
+    --navyblue: #2E2F42;
+    --cloud: #F4F4FD;
+    --iris: #4D5AE5;
+    --main-cl: #434455;
+   
+}
+address {
+    font-style: normal;
+}
 
-/**
-  |============================
-  | classes studio page
-  |============================
-*/
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
-.header {}
+.team-list, .advantages-list,.doing-list,.header-nav, .header-address-list, .portfolio-filters-list,
+ .portfolio-row1-list, .portfolio-row2-list, .portfolio-row3-list {
+    list-style: none;
+}
 
-.nav-logo {}
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
 
-.nav-logo-web {}
+.btn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.header {
+    border-bottom: 1px solid var(--cornflower);
+    background: var(--white);
+    
+
+}
+body {
+    font-family: var(--main-font);
+    background-color: var(--white);
+    color: var(--main-cl); 
+}
+
+
+/* Header*/   
+.nav-logo {
+    color: var(--navyblue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.nav-logo-web {
+    color: var(--iris); 
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
 .header-nav {}
 
-.header-nav-studio {}
+.header-nav-studio-link, .header-nav-portfolio-link, .header-nav-contacts-link{
+    color: var(--navyblue);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
 
 .header-nav-studio-link {}
 
-.header-nav-portfolio {}
-
 .header-nav-portfolio-link {}
-
-.header-nav-contacts {}
 
 .header-nav-contacts-link {}
 
@@ -32,11 +101,46 @@
 
 .header-address-email {}
 
-.header-address-emailto {}
+.header-address-emailto,.header-address-telto{
+    /* Body */
+    color:var(--main-cl);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
 
 .header-address-tel {}
 
-.header-address-telto {}
+
+
+
+/*Footer*/
+.footer {
+    background: var(--navyblue);
+}
+
+.footer-text 
+    {font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--cloud); }
+
+
+/**
+  |============================
+  | classes studio page
+  |============================
+*/
+
+
 
 .hero {}
 
@@ -130,9 +234,7 @@
 
 .team-list-item4-text {}
 
-.footer {}
 
-.footer-text {}
 
 /**
   |============================
@@ -140,41 +242,10 @@
   |============================
 */
 
-.header {}
-
-.nav-logo {}
-
-.nav-logo-web {}
-
-.header-nav {}
-
-.header-nav-studio {}
-
-.header-nav-studio-link {}
-
-.header-nav-portfolio {}
-
-.header-nav-portfolio-link {}
-
-.header-nav-contacts {}
-
-.header-nav-contacts-link {}
-
-.header-address {}
-
-.header-address-list {}
-
-.header-address-emailto {}
-
-.header-address-tel {}
-
-.header-address-telto {}
 
 .portfolio-filters {}
 
 .portfolio-filters-title {}
-
-.portfolio-filters-list {}
 
 .portfolio-filters-list-all {}
 
@@ -282,7 +353,7 @@
 
 .portfolio-row3-item3-text {}
 
-.footer {}
+
 
 
 
