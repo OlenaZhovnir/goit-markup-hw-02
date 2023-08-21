@@ -50,7 +50,7 @@ img {
 body {
     font-family: var(--main-font);
     background-color: var(--white);
-    color: var(--main-cl); 
+    color: #434455; 
 }
 
 
@@ -179,7 +179,9 @@ body {
 
 .advantages {}
 
-.advantages-text {}
+.advantages-text {
+    display:none;
+}
 
 .advantages-list {}
 
@@ -353,7 +355,9 @@ body {
 
 .portfolio-filters {}
 
-.portfolio-filters-title {}
+.portfolio-filters-title {
+    display:none;
+}
 
 .portfolio-filters-list-all {
     border-radius: 4px;
@@ -363,15 +367,15 @@ body {
 
 .portfolio-filters-list-all-btn {
     color: var(--white);
-        text-align: center;
-        /* Button Text */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.64px;
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
 }
 .portfolio-filters-list-web,
 .portfolio-filters-list-app,
@@ -401,14 +405,32 @@ body {
 
 
 .portfolio-row1 {}
-
-.portfolio-row1-title {}
-
 .portfolio-row1-list {}
+
+.portfolio-row2 {}
+.portfolio-row2-list {}
+
+.portfolio-row3 {}
+.portfolio-row3-list {}
+
+
+
+.portfolio-row1-title,
+.portfolio-row2-title,
+.portfolio-row3-title {
+    display: none;
+}
+
 
 .portfolio-row1-item1,
 .portfolio-row1-item2,
-.portfolio-row1-item3 {
+.portfolio-row1-item3,
+.portfolio-row2-item1,
+.portfolio-row2-item2,
+.portfolio-row2-item3,
+.portfolio-row3-item1,
+.portfolio-row3-item2,
+.portfolio-row3-item3 {
     border: 1px solid var(--cornflower);
     background: var(--white);
 }
@@ -417,7 +439,28 @@ body {
     background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
-.portfolio-row1-item1-title {
+.portfolio-row1-item2-image,
+.portfolio-row1-item3-image,
+.portfolio-row2-item1-image,
+.portfolio-row2-item2-image,
+.portfolio-row2-item3-image,
+.portfolio-row3-item2-image,
+.portfolio-row3-item3-image {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.portfolio-row3-item1-image {
+    background: url(<path-to-image>), lightgray -301.702px -106.916px / 234.581% 191.045% no-repeat;
+}
+.portfolio-row1-item1-title,
+.portfolio-row1-item2-title,
+.portfolio-row1-item3-title,
+.portfolio-row2-item1-title,
+.portfolio-row2-item2-title,
+.portfolio-row2-item3-title,
+.portfolio-row3-item1-title,
+.portfolio-row3-item2-title,
+.portfolio-row3-item3-title {
     color: var(--navyblue);
     /* Header  */
     font-family: Roboto;
@@ -429,7 +472,15 @@ body {
     letter-spacing: 0.4px;
 }
 
-.portfolio-row1-item1-text {
+.portfolio-row1-item1-text,
+.portfolio-row1-item2-text,
+.portfolio-row1-item3-text,
+.portfolio-row2-item1-text,
+.portfolio-row2-item2-text,
+.portfolio-row2-item3-text,
+.portfolio-row3-item1-text,
+.portfolio-row3-item2-text,
+.portfolio-row3-item3-text {
     color: var(--main-cl);
     /* Body */
     font-family: Roboto;
@@ -442,77 +493,7 @@ body {
 }
 
 
-.portfolio-row1-item2-image {}
 
-.portfolio-row1-item2-title {}
-
-.portfolio-row1-item2-text {}
-
-
-
-.portfolio-row1-item3-image {}
-
-.portfolio-row1-item3-title {}
-
-.portfolio-row1-item3-text {}
-
-.portfolio-row2 {}
-
-.portfolio-row2-title {}
-
-.portfolio-row2-list {}
-
-.portfolio-row2-item1 {}
-
-.portfolio-row2-item1-image {}
-
-.portfolio-row2-item1-title {}
-
-.portfolio-row2-item1-text {}
-
-.portfolio-row2-item2 {}
-
-.portfolio-row2-item2-image {}
-
-.portfolio-row2-item2-title {}
-
-.portfolio-row2-item2-text {}
-
-.portfolio-row2-item3 {}
-
-.portfolio-row2-item3-image {}
-
-.portfolio-row2-item3-title {}
-
-.portfolio-row2-item3-text {}
-
-.portfolio-row3-tilte {}
-
-.portfolio-row3-list {}
-
-.portfolio-row3-item1 {}
-
-.portfolio-row3-item1-image {}
-
-.portfolio-row3-item1-title {}
-
-.portfolio-row3-item1-text {}
-
-.portfolio-row3-item2 {}
-
-.portfolio-row3-item2-image {}
-
-.portfolio-row3-item2-title {}
-
-.portfolio-row3-item2-text {}
-
-.portfolio-row3-item3 {}
-
-.portfolio-row3-item3-image {}
-
-.portfolio-row3-item3-title {}
-
-.portfolio-row3-item3-text {}
 
 
 
